@@ -1,0 +1,18 @@
+Technology Demonstrations
+-------------------------
+===============================================================================================================
+| Module                    | Demo Files | Description                                                        |
+|=============================================================================================================|
+|                           | record.py  | Writes the RecordListener class. When user wishes to record a      |
+|                           |            | sign, the record listener object will be added to the controller   |
+|                           |            | which will listen and collect the hand data read by the controller |
+|                           |            | and will then print out the average of the data after stopped.     |
+| Leap Motion Python Module |---------------------------------------------------------------------------------|
+|                           | main.py    | Main.py counts down from 5 seconds and then instantiates a         |
+|                           |            | record.Listener class and adds it to the controller. After 5 secs  |
+|                           |            | it stops the listener and the average of the data is printed.      |
+|-------------------------------------------------------------------------------------------------------------|
+| sqlite3                   | db.py      | Basic database class. Connects to a database, creates a dummy      |
+|                           |            | table for debugging purposes, retrieves data from table, performs  |
+|                           |            | generic SQL query.                                                 |
+===============================================================================================================

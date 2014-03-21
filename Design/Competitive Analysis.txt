@@ -1,0 +1,14 @@
+Competitive Analysis
+---------------------
+As Leap Motion is a very new device, relatively few applications have been developed for it. As such, only one direct competitor was found. However, their product is still underdevelopment and has yet to be named. It is being developed by two Portuguese designers, Catarina Araujo and Sofia Santos. Their device too features the Leap Motion embedded in a device which is worn over the neck. It has a small LED screen which displays the translated text for others to read.
+
+I gained a lot of inspiration from this device, taking my idea from merely being a desktop device to something that is portable and more applicable to people with mutism. The device is convenient, light and very practical as the range of the Leap Motion is perfect for reading sign language in front of the wearer's chest and further more both the LED screen and the Leap Motion requires little power and does not need a huge battery to be attached.
+
+Initially, I tested out my program with the Leap Motion orientated upwards but that proved to be ineffective as most sign languages are seen horizontally. As such, I plan to include the fact that the Leap Motion collects data while being orientated sidewards.
+
+However, I feel that stopping at text output is limiting. Drawing inspiration from Stephen Hawking's Speech-generating device, I hope to extend this project to include a speech synthesizer which will play out the message.
+ 
+Storyboard
+Here you should include hand-drawn pictures (do not worry about making them pretty) showing how your app will work from the user’s perspective. Using your storyboard, you will walk your mentor through the user experience of your program, and you will do this prior to writing lots of code. This way, your mentor can help you make any necessary adjustments to your design prior to your having a huge investment in a large code base.
+
+Further Competitor Info: http://www.crunchwear.com/leap-motion-technology-translates-sign-language/

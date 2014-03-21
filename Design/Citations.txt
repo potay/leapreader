@@ -1,0 +1,18 @@
+###############
+## Functions ##
+###############
+
+1. rgbString - David Kosbie (Assistant Teaching Professor, Carnegie Mellon University)
+
+###############
+##  Images   ##
+###############
+
+None
+
+###############
+##   Audio   ##
+###############
+
+1. Intro Audio - Apple Garageband Loops
+2. Button Effect Audio - Apple Garageband Loops

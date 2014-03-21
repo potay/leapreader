@@ -1,0 +1,56 @@
+####################
+## Design Outline ##
+####################
+
+Introduction
+-------------
+There has been revolutionary advancements in Voice Recognition technology, with products such as Siri to softwares such as Dragon and even Google developing chrome to make it native in their web browser. However, despite these advancements, it has not been able to empower everyone equally, leaving a group of people behind.
+
+People sufferring from mutism have always found it challenging to communicate. Many of them learn sign language in order to communicate more effectively. However, as sign language is not a universally known language, these people have no choice but to resort to using the pen and paper and writing out the message they wish to convey. Not only does this cause great inconvenience, but it too results in an inefficient usage of time.
+
+However, just less than a year ago, Leap Motion, Inc released a new revolutionary product named Leap Motion which, using IR technology, is able to detect hands, fingers and finger-like objects in a specific space. Leap Motion is able to not only detect and read the 3-Dimensional coordinates of hands, fingers and finger-like objects, but it is also able to interpret that into intelligent information such as the objects's velocity, palm's and finger's directions, the curvature of the hand, gestures, and much more. Furthermore, the Leap Motion is a tiny device, half the size of a credit card and about as thick as a whiteboard marker.
+
+LeapReader paired, with the Leap Motion embedded into a device which is worn over the neck, will be the software powering the device so that it can detect the person's hand movements and translate that directly into text which can be displayed on that device as well as read out via a speed synthesizer. The person can then communicate to people via this device. Like most language recognition programs, it can learn and modify itself such that it will be able to personalize its interpretation to the user so as to translate the user's message more accurately. Furthermore, if the user does not wish to stick to the conventional sign language, the user can map custom hand signs to words.
+
+However, as this first version of LeapReader, it is only able to interpret a list of one-handed signs which does not involve the curvature of the hand into a set list of words. These signs will mainly involve variations in which set of fingers are protuding out of a fist. LeapReader will also allow you to view the stored words in the database.
+
+LeapReader runs on the computer and requires the Leap Motion device connected to the computer.
+
+Structure
+----------
+The program is build based on the model-view-controller software architecture.
+The model is stored in the LeapReader class, while the view and controller are in the UI class. The database is stored in the main folder and the class which
+handles the database interaction is the DB class.
+
+UI Design
+-----------
+The UI Design was fairely straightforward as the core of the software lies in
+the translation algorithm itself. However, the UI was designed such that it is
+user-friendly, simple and easy to use as well as engaging, with colorful
+images and shapes.
+
+Algorithm
+----------
+Leap Motion is able to detect certain data every frame. This data includes the
+palm position, direction, finger tip position, finger length and width as well
+as finger direction. However, all these individual objects are not sorted.
+
+This is where LeapReader comes in. LeapReader uses a mapping algorithm to sort
+all these data and map them on to the hand such that we can detect which hand
+it is (left or right) and which fingers are out.
+
+Three algorithms were attempted. However, the algorithm chosen uses the
+length/width ratio of the fingers to detect which fingers were which as well
+as used the palm's plane to sort the fingers from left to right. Finding all
+possible mappings, the mapping which gives fingers closest to the calibrated
+length/width ratio of the user's hand is used. This data is then sent to the
+database which matches it to the closest stored hand sign.
+
+Influences
+-----------
+As the Leap Motion device is fairly new, it does not have many applications
+built for it. As such, there was no existing similar software on the market.
+However, there was one team from Europe which is currently attempting to build
+a similar product. However, their device merely displays the text. LeapReader
+plans to bring this a step further by using text-to-speech software to instead
+read out the text, giving the user a voice as well.

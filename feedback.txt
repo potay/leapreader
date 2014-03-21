@@ -1,0 +1,12 @@
+Jacquie Shaw
+1. Change DB to dictionary
+2. Add about page
+
+Arul
+1. Add instructions
+
+Jane
+1. Reduce waiting/reading time
+
+Brian
+1. Try SQL Probability ("like" statement)

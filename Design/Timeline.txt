@@ -1,0 +1,40 @@
+Proposed Timeline
+-----------------
+
+11/20 	- Basic reading and translating done
+		+ May be extremely inaccurate and unpolished as long as rough structure is there
+	- Hand Data Collection
+		+ In order to analyze data and figure out which filter out less useful data
+
+11/21	- Analysis of data
+	- Writing out a few algorithms to test out
+	- Write and test out first
+
+11/22	- Analyze results of first algorithm
+	- Write basic UI code
+
+11/23	- Write and test second algorithm
+	- Analyze results of second algorithm
+
+11/24	- Improve on UI
+
+11/25	- Write and test third algorithm
+
+11/27	- Analyze results of third algorithm
+	- Conceptualize machine-learning aspect
+
+11/30	- Algorithm Draft Complete
+		+ Includes machine-learning aspect
+
+12/01 	- Work on UI
+	- Work on Database Aspect
+
+12/02	- Test on various people
+	- Overall tweaking of project to improve it.
+	- Start Project Video
+
+12/03	- Finish Project Video
+	- Work on project documents
+
+12/04	- Final checks
+	- Submit work
